@@ -4,7 +4,7 @@
 ?>
 
 <div class="card mt-5">
-    <ul class="nav nav-pills">    
+    <ul class="nav nav-pills mb-2">    
         <li class="nav-item">
             <a class="nav-link active" href="view_book.php">Data</a>
         </li>
@@ -55,9 +55,9 @@
                     value=""/>
                 <button type="submit" class="btn btn-primary" value="submit">Submit
             </form> -->
-            <form action="filter_books.php" method="post" id="filterForm">
-                <input type="text" name="search" id="search" class="form-check" autofocus placeholder="Masukkan keyword"><br>
-                <select id="categoryFilter" name="category">
+            <form action="filter_books.php" method="post" id="filterForm" class="mx-2 d-flex justify-content-between">
+                <input type="text" name="search" id="search" class="form-check" autofocus placeholder="Masukkan keyword" class="mx-2"><br>
+                <select id="categoryFilter" name="category" class="mx-2">
                     <option value="">--Select a Category--</option>
                     <option value="Education">Education</option>
                     <option value="Fiction">Fiction</option>
@@ -66,7 +66,7 @@
                 </select>
                 <input
                     type="number"
-                    class="form-control"
+                    class="form-control mx-2"
                     style="min-width: 100px;"
                     name="minprice"
                     id="minprice"
@@ -78,7 +78,7 @@
                 />
                 <input
                     type="number"
-                    class="form-control"
+                    class="form-control mx-2"
                     style="min-width: 100px;"
                     name="maxprice"
                     id="maxprice"
@@ -88,7 +88,7 @@
                     pattern="^\d+(?:\.\d{1,2})?$"
                     value=""
                 />
-                <button type="submit" class="btn btn-primary" value="submit">Submit</button>
+                <button type="submit" class="btn btn-primary" value="submit" class="mx-2">Submit</button>
             </form>
         </div>
         <div id="container">

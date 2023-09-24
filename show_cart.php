@@ -79,7 +79,7 @@ if (isset($_POST['submit'])) {
 
 <br>
 <div class="card mt-4">
-<ul class="nav nav-pills">
+<ul class="nav nav-pills mb-2">
         <li class="nav-item">
             <a class="nav-link" href="view_book.php">Data</a>
         </li>
@@ -99,7 +99,7 @@ if (isset($_POST['submit'])) {
             <a class="nav-link" href="statistik.php">Statistik</a>
         </li>
 </ul>
-    <div class="card-header">Shopping Cart</div>
+    <div class="card-header">Keranjang</div>
     <div class="card-body">
         <br>
         <table class="table table-striped">

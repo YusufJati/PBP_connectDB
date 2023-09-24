@@ -1,7 +1,7 @@
 <?php include('header.php'); ?>
 
 <div class="card mt-5">
-    <ul class="nav nav-pills">
+    <ul class="nav nav-pills mb-2">
         <li class="nav-item">
             <a class="nav-link" href="view_book.php">Data</a>
         </li>

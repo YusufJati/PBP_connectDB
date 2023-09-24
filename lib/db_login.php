@@ -5,7 +5,7 @@ $db_username='root';
 $db_password='';
 // TODO 1: Buatlah koneksi dengan database
 try {
-    $db = new mysqli('localhost', 'root', '', 'bookorama');
+    $db = new mysqli('localhost', 'root', '', 'bookorama_kelas');
 } catch (mysqli_sql_exception $e) {
     die("Connection failed: " . $e->getMessage());
 }
